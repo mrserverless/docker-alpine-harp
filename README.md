@@ -2,9 +2,12 @@
 
 [![Docker Repository on Quay.io](https://quay.io/repository/yunspace/alphine-harp/status "Docker Repository on Quay.io")](https://quay.io/repository/yunspace/alphine-harp)
 
-[HarpJS](harpjs.com) Microcontainer leveraging the minimalistic [Alphine Linux](https://github.com/gliderlabs/docker-alpine) docker image.
+Minimal [HarpJS](harpjs.com) Microcontainer leveraging the [Alphine Linux](https://github.com/gliderlabs/docker-alpine)
 
-At less than 300MB, which is half the size of a typical Ubuntu/Debian based NodeJS + HarpJS image.
+## Versions
+
+* [0.17.0-squashed]() - squashed image at 127.4mb, prefect for base images
+* [0.17.0]() - layered version at 271.8mb
 
 ## Base Docker Image
 
@@ -13,8 +16,14 @@ At less than 300MB, which is half the size of a typical Ubuntu/Debian based Node
 
 ## Usage
 
-    docker run --rm -ti yunspace/alphine-harp:0.17.0
-  
+Available on Quay.io
+
+    docker run --rm quay.io/yunspace/alphine-harp:0.17.0 harp --version
+
+or Docker Hub
+
+    docker run --rm yunspace/alphine-harp:0.17.0 harp --version
+
 ## Node-Sass
 
 Due to this issue https://github.com/sass/node-sass/issues/808, node-sass binary needs to be re-compiled for Alphine Linux.
