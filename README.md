@@ -1,6 +1,7 @@
 # Docker Alphine Harp
 
-[HarpJS](harpjs.com) Microcontainer built on [Alphine Linux](https://github.com/gliderlabs/docker-alpine) Docker base image.
+[HarpJS](harpjs.com) Microcontainer built on the minimal [ficusio/nodejs-base](https://registry.hub.docker.com/u/ficusio/nodejs-base/) which in
+turn is built on [Alphine Linux](https://github.com/gliderlabs/docker-alpine).
 
 At less than 300MB, this image is half the size of a typical NodeJS + HarpJS image.
 
