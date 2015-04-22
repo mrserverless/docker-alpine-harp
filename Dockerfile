@@ -1,4 +1,5 @@
 FROM ficusio/nodejs-base:0.12
+MAINTAINER Yun Zhi Lin <yun@yunspace.com>
 
 ENV NODE_ENV production
 
