@@ -1,11 +1,21 @@
 # Docker Alphine Harp
 
-[HarpJS](harpjs.com) Microcontainer built on the minimal [ficusio/nodejs-base](https://registry.hub.docker.com/u/ficusio/nodejs-base/) which in
-turn is built on [Alphine Linux](https://github.com/gliderlabs/docker-alpine).
+[![Docker Repository on Quay.io](https://quay.io/repository/yunspace/alphine-harp/status "Docker Repository on Quay.io")](https://quay.io/repository/yunspace/alphine-harp)
 
-At less than 300MB, this image is half the size of a typical NodeJS + HarpJS image.
+[HarpJS](harpjs.com) Microcontainer leveraging the minimalistic [Alphine Linux](https://github.com/gliderlabs/docker-alpine) docker image.
 
-### Node-Sass
+At less than 300MB, which is half the size of a typical Ubuntu/Debian based NodeJS + HarpJS image.
+
+## Base Docker Image
+
+* [ficusio/nodejs-base](https://registry.hub.docker.com/u/ficusio/nodejs-base/)
+* [alphine](https://registry.hub.docker.com/_/alpine/)
+
+## Usage
+
+  docker run --rm -ti yunspace/alphine-harp:0.17.0
+  
+## Node-Sass
 
 Due to this issue https://github.com/sass/node-sass/issues/808, node-sass binary needs to be re-compiled for Alphine Linux.
 Thus the size of the image is bigger due to build dependency packages such as `python, make and g++`

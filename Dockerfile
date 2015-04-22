@@ -1,4 +1,4 @@
-FROM ficusio/nodejs-base
+FROM ficusio/nodejs-base:0.12
 
 ENV NODE_ENV production
 
