@@ -13,7 +13,7 @@ At less than 300MB, which is half the size of a typical Ubuntu/Debian based Node
 
 ## Usage
 
-  docker run --rm -ti yunspace/alphine-harp:0.17.0
+    docker run --rm -ti yunspace/alphine-harp:0.17.0
   
 ## Node-Sass
 
