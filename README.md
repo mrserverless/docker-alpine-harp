@@ -2,12 +2,7 @@
 
 [![Docker Repository on Quay.io](https://quay.io/repository/yunspace/alphine-harp/status "Docker Repository on Quay.io")](https://quay.io/repository/yunspace/alphine-harp)
 
-Minimal [HarpJS](http://harpjs.com) Microcontainer leveraging the [Alphine Linux](https://github.com/gliderlabs/docker-alpine)
-
-## Versions
-
-* [0.17.0-squashed](https://quay.io/repository/yunspace/alphine-harp?tag=0.17.0-squashed) - squashed image at 127.4mb, prefect for base images
-* [0.17.0](https://quay.io/repository/yunspace/alphine-harp?tag=0.17.0) - layered version at 291.8mb
+Minimal 125mb [HarpJS](http://harpjs.com) Microcontainer leveraging the [Alphine Linux](https://github.com/gliderlabs/docker-alpine)
 
 ## Base Docker Image
 
