@@ -13,11 +13,11 @@ Minimal 125mb [HarpJS](http://harpjs.com) Microcontainer leveraging the [Alphine
 
 From Quay.io
 
-    docker run --rm quay.io/yunspace/alphine-harp:0.17.0-squashed harp --version
+    docker run --rm quay.io/yunspace/alphine-harp:0.17.0 harp --version
 
 or Docker Hub
 
-    docker run --rm yunspace/alphine-harp:0.17.0-squashed harp --version
+    docker run --rm yunspace/alphine-harp:0.17.0 harp --version
 
 ## Why Squash?
 
