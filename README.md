@@ -1,6 +1,6 @@
 # Docker Alphine Harp
 
-[![Docker Repository on Quay.io](https://quay.io/repository/yunspace/alphine-harp/status "Docker Repository on Quay.io")](https://quay.io/repository/yunspace/alphine-harp)
+[![Docker Repository on Quay.io](https://quay.io/repository/technotycoon/alpine-harp/status "Docker Repository on Quay.io")](https://quay.io/repository/technotycoon/alpine-harp)
 
 Minimal 125mb [HarpJS](http://harpjs.com) Microcontainer leveraging the [Alphine Linux](https://github.com/gliderlabs/docker-alpine)
 
