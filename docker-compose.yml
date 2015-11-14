@@ -1,0 +1,4 @@
+hello:
+  image: 'quay.io/technotycoon/alpine-harp:latest'
+  ports:
+    - '9000'
