@@ -1,7 +1,7 @@
 # Docker Alphine Harp
 
 [![Deploy to Tutum](https://s.tutum.co/deploy-to-tutum.svg)](https://dashboard.tutum.co/stack/deploy/?repo=https://github.com/yunspace/docker-alpine-harp)
-[![Docker Repository on Quay.io](https://quay.io/repository/TechnoTycoon/alpine-harp/status "Docker Repository on Quay.io")](https://quay.io/repository/yunspace/alpine-harp)
+[![Docker Repository on Quay.io](https://quay.io/repository/yunspace/alpine-harp/status "Docker Repository on Quay.io")](https://quay.io/repository/yunspace/alpine-harp)
 
 Minimal 125mb [HarpJS](http://harpjs.com) Microcontainer leveraging the [Alphine Linux](https://github.com/gliderlabs/docker-alpine)
 
